@@ -21,7 +21,7 @@
  * 
  * 1,2,4,8,16.....
  */
-public class Offer_9 {
+public class Offer_09 {
     public int JumpFloorII(int target) {
     	int a = 1;
     	if(target==0){

@@ -11,7 +11,7 @@
  *  从后向前移动字符串，字符只移动一次
  * 这里只给从后向前的方式
  */
-public class Offer_2 {
+public class Offer_02 {
 	public String replaceSpace(StringBuffer str) {
 		int spaceNum = 0;// 字符串中空格的个数
 		for (int i = 0; i < str.length(); i++) {

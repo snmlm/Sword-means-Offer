@@ -22,7 +22,7 @@
  *   4 5 6 8
  *  7
  */
-public class Offer_4 {
+public class Offer_04 {
 	// Definition for binary tree
 	public class TreeNode {
 		int val;

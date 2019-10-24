@@ -16,7 +16,7 @@
  * 当n=3时，就符合f（n）=f（n-1）+f（n-2）。
  * 可以想到是斐波那契数列的变形。0,1,2,3,5,8...
  */
-public class Offer_8 {
+public class Offer_08 {
     public int JumpFloor(int target) {
     	int a = 0;
     	int b = 1;

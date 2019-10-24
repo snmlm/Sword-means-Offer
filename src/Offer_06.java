@@ -12,7 +12,7 @@
  * 在没有重复项的时候，可以用二分法进行。
  * 在于缩小查询范围。数量级比较大的时候，可以考虑多线程，进行分段检索。
  */
-public class Offer_6 {
+public class Offer_06 {
 	public int minNumberInRotateArray(int [] array) {
 		return min(array,0,array.length);
     }
@@ -60,9 +60,9 @@ public class Offer_6 {
 	}
 	
 	public static void main(String[] args) {
-		Offer_6 offer_6 = new Offer_6();
+		Offer_06 offer_06 = new Offer_06();
 		int[] array = {3,4,5,6,7,8,1,2};
-		System.out.println(offer_6.minNumberInRotateArray(array));
+		System.out.println(offer_06.minNumberInRotateArray(array));
 	}
 	
 	public void put(int[] array){

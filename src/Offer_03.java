@@ -9,7 +9,7 @@ import java.util.ArrayList;
  * C++ vector的特性，可以插入特定位置
  * java arraylist有Collections工具类，可以直接插入，然后反转
  */
-public class Offer_3 {
+public class Offer_03 {
 	public class ListNode {
 		int val;
 		ListNode next = null;

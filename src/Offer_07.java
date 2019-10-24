@@ -13,7 +13,7 @@
  * n>2Ê±£¬an=an-2+an-1;
  *
  */
-public class Offer_7 {
+public class Offer_07 {
 	public int Fibonacci(int n) {
 		int a = 0;
 		int b = 1;

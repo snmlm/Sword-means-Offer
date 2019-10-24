@@ -13,7 +13,7 @@ import java.util.Stack;
  * pop的时候，stack2没有数据，就从stack1中数据导入，stack1弹出，stack2压入。
  * pop的时候，stack2有数据的时候，直接弹出。
  */
-public class Offer_5 {
+public class Offer_05 {
 	//push
     Stack<Integer> stack1 = new Stack<Integer>();
     //pop

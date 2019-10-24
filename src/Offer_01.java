@@ -14,7 +14,7 @@
  * 3 4 5 6
  * 4 5 6 7
  */
-public class Offer_1 {
+public class Offer_01 {
 	public boolean Find(int target, int[][] array) {
 		boolean isExist = false;
 		// ×İÏò
