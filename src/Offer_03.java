@@ -1,13 +1,13 @@
 import java.util.ArrayList;
 
 /**
- * ��β��ͷ��ӡ����
- * ����һ����������������β��ͷ��˳�򷵻�һ��ArrayList��
+ * 从尾到头打印链表
+ * 输入一个链表，按链表从尾到头的顺序返回一个ArrayList。
  *
- * ˼·��
- * ����˼·�����õݹ飬ѭ������󣬽��в���
- * C++ vector�����ԣ����Բ����ض�λ��
- * java arraylist��Collections�����࣬����ֱ�Ӳ��룬Ȼ��ת
+ * 思路：
+ * 正常思路：利用递归，循环到最后，进行插入
+ * C++ vector的特性，可以插入特定位置
+ * java arraylist有Collections工具类，可以直接插入，然后反转
  */
 public class Offer_03 {
 	public class ListNode {

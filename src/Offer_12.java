@@ -1,14 +1,14 @@
 
 /**
- * ÊýÖµµÄÕûÊý´Î·½
- * ¸ø¶¨Ò»¸ödoubleÀàÐÍµÄ¸¡µãÊýbaseºÍintÀàÐÍµÄÕûÊýexponent¡£ÇóbaseµÄexponent´Î·½¡£
- * ±£Ö¤baseºÍexponent²»Í¬Ê±Îª0
+ * æ•°å€¼çš„æ•´æ•°æ¬¡æ–¹
+ * ç»™å®šä¸€ä¸ªdoubleç±»åž‹çš„æµ®ç‚¹æ•°baseå’Œintç±»åž‹çš„æ•´æ•°exponentã€‚æ±‚baseçš„exponentæ¬¡æ–¹ã€‚
+ * ä¿è¯baseå’Œexponentä¸åŒæ—¶ä¸º0
  * @author xxxxx
  * 
- * Ë¼Â·£º
- * ¿¼ÂÇexponentÊÇÕý¸ºµÄÇé¿ö¡£
+ * æ€è·¯ï¼š
+ * è€ƒè™‘exponentæ˜¯æ­£è´Ÿçš„æƒ…å†µã€‚
  * 10^1011=10^1000*10^0010*10^0001;
- * Ö¸Êý>>1£¬µ×Êý^2£¬½á¹ûÊÇÒ»ÑùµÄ£¬exponent&1==1Ö»ÓÐÎ»ÖµÎª1µÄ²Å¼ÆËã£¬µ×Êý²¢·­±¶ÁË¡£
+ * æŒ‡æ•°>>1ï¼Œåº•æ•°^2ï¼Œç»“æžœæ˜¯ä¸€æ ·çš„ï¼Œexponent&1==1åªæœ‰ä½å€¼ä¸º1çš„æ‰è®¡ç®—ï¼Œåº•æ•°å¹¶ç¿»å€äº†ã€‚
  *
  */
 public class Offer_12 {

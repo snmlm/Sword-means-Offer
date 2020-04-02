@@ -3,18 +3,18 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /**
- * ×îÐ¡µÄK¸öÊý
- * ÊäÈën¸öÕûÊý£¬ÕÒ³öÆäÖÐ×îÐ¡µÄK¸öÊý¡£
- * ÀýÈçÊäÈë4,5,1,6,2,7,3,8Õâ8¸öÊý×Ö£¬Ôò×îÐ¡µÄ4¸öÊý×ÖÊÇ1,2,3,4,¡£
+ * æœ€å°çš„Kä¸ªæ•°
+ * è¾“å…¥nä¸ªæ•´æ•°ï¼Œæ‰¾å‡ºå…¶ä¸­æœ€å°çš„Kä¸ªæ•°ã€‚
+ * ä¾‹å¦‚è¾“å…¥4,5,1,6,2,7,3,8è¿™8ä¸ªæ•°å­—ï¼Œåˆ™æœ€å°çš„4ä¸ªæ•°å­—æ˜¯1,2,3,4,ã€‚
  * @author xxxxx
  *
- * Ë¼Â·£º
- * ¾­µätopNÎÊÌâ
- * ¿ÉÒÔÅÅÐò£¬È»ºó±éÀú¡£
- * Ò²¿ÉÒÔ·Ö¶Î´¦Àí¡£
- * »¹¿ÉÒÔÓÃ¶Ñ´¦Àí¡£
- * ÎÞÂÛÔõÑù¶¼±Ü²»¿ªÈ«Êý¾Ý±éÀú¡£ÅÅÐòÖ»ÊÇÌáÉý±éÀúÐ§ÂÊ¡£
- * Í¶»úÒ»ÏÂ£¬ÀûÓÃPriorityQueue×Ô¶¯ÅÅÐòµÄ¹¦ÄÜ¡£
+ * æ€è·¯ï¼š
+ * ç»å…¸topNé—®é¢˜
+ * å¯ä»¥æŽ’åºï¼Œç„¶åŽéåŽ†ã€‚
+ * ä¹Ÿå¯ä»¥åˆ†æ®µå¤„ç†ã€‚
+ * è¿˜å¯ä»¥ç”¨å †å¤„ç†ã€‚
+ * æ— è®ºæ€Žæ ·éƒ½é¿ä¸å¼€å…¨æ•°æ®éåŽ†ã€‚æŽ’åºåªæ˜¯æå‡éåŽ†æ•ˆçŽ‡ã€‚
+ * æŠ•æœºä¸€ä¸‹ï¼Œåˆ©ç”¨PriorityQueueè‡ªåŠ¨æŽ’åºçš„åŠŸèƒ½ã€‚
  */
 public class Offer_29 {
     public ArrayList<Integer> GetLeastNumbers_Solution(int [] input, int k) {

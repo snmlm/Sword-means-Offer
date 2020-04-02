@@ -4,14 +4,14 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * ×Ö·û´®µÄÅÅÁÐ ÊäÈëÒ»¸ö×Ö·û´®,°´×ÖµäÐò´òÓ¡³ö¸Ã×Ö·û´®ÖÐ×Ö·ûµÄËùÓÐÅÅÁÐ¡£
- * ÀýÈçÊäÈë×Ö·û´®abc,Ôò´òÓ¡³öÓÉ×Ö·ûa,b,cËùÄÜÅÅÁÐ³öÀ´µÄËùÓÐ×Ö·û´®abc,acb,bac,bca,cabºÍcba¡£ ÊäÈëÃèÊö:
- * ÊäÈëÒ»¸ö×Ö·û´®,³¤¶È²»³¬¹ý9(¿ÉÄÜÓÐ×Ö·ûÖØ¸´),×Ö·ûÖ»°üÀ¨´óÐ¡Ð´×ÖÄ¸¡£
+ * å­—ç¬¦ä¸²çš„æŽ’åˆ— è¾“å…¥ä¸€ä¸ªå­—ç¬¦ä¸²,æŒ‰å­—å…¸åºæ‰“å°å‡ºè¯¥å­—ç¬¦ä¸²ä¸­å­—ç¬¦çš„æ‰€æœ‰æŽ’åˆ—ã€‚
+ * ä¾‹å¦‚è¾“å…¥å­—ç¬¦ä¸²abc,åˆ™æ‰“å°å‡ºç”±å­—ç¬¦a,b,cæ‰€èƒ½æŽ’åˆ—å‡ºæ¥çš„æ‰€æœ‰å­—ç¬¦ä¸²abc,acb,bac,bca,cabå’Œcbaã€‚ è¾“å…¥æè¿°:
+ * è¾“å…¥ä¸€ä¸ªå­—ç¬¦ä¸²,é•¿åº¦ä¸è¶…è¿‡9(å¯èƒ½æœ‰å­—ç¬¦é‡å¤),å­—ç¬¦åªåŒ…æ‹¬å¤§å°å†™å­—æ¯ã€‚
  * 
  * @author xxxxx
  * 
- * Ë¼Â·£º
- * ÓÃÍ¬Ò»¸öÊý×é½øÐÐ£¬Á½Á½»¥»»£¬È¥ÖØ¡£
+ * æ€è·¯ï¼š
+ * ç”¨åŒä¸€ä¸ªæ•°ç»„è¿›è¡Œï¼Œä¸¤ä¸¤äº’æ¢ï¼ŒåŽ»é‡ã€‚
  * 
  */
 public class Offer_27 {

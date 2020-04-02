@@ -1,28 +1,28 @@
 /**
- * ������������˫������
- * ����һ�ö��������������ö���������ת����һ�������˫��������
- * Ҫ���ܴ����κ��µĽ�㣬ֻ�ܵ������н��ָ���ָ��
+ * 二叉搜索树与双向链表
+ * 输入一棵二叉搜索树，将该二叉搜索树转换成一个排序的双向链表。
+ * 要求不能创建任何新的结点，只能调整树中结点指针的指向。
  * @author xxxxx
  * 
- * ˼·��
- * �ݹ鷽ʽ��
- * ����������������ʱ��Ҫ��������ֵ��һ�������ڵ㣬һ�����Ҳ�ڵ㡣
- * ��4�����
- * ���1��      2
+ * 思路：
+ * 递归方式。
+ * 在左右子树遍历的时候，要返回两个值，一个是左侧节点，一个是右侧节点。
+ * 有4中情况
+ * 情况1：      2
  *      1   3
- * ��ô���ڵ�ͷ���1���Ҳ�ڵ����3
- * ���2��      2
+ * 那么左侧节点就返回1，右侧节点就是3
+ * 情况2：      2
  *      1   #
- * ��ô���ڵ�ͷ���1���Ҳ�ڵ����2
- * ���3��      2
+ * 那么左侧节点就返回1，右侧节点就是2
+ * 情况3：      2
  *      #   3
- * ��ô���ڵ�ͷ���2���Ҳ�ڵ����3
- * ���4��      2
+ * 那么左侧节点就返回2，右侧节点就是3
+ * 情况4：      2
  *      #   #
- * ��ô���ڵ�ͷ���2���Ҳ�ڵ����2�����4�����1�������㣬���Դ���3��������ɡ�
- * ������������ʱ���õ����ص��Ҳ�ڵ㡣
- * ������������ʱ���õ����ص����ڵ㡣
- * ֮��������ɡ�
+ * 那么左侧节点就返回2，右侧节点就是2。情况4是情况1的子树层，所以处理3中情况即可。
+ * 遍历左子树的时候，用到返回的右侧节点。
+ * 遍历右子树的时候，用到返回的左侧节点。
+ * 之后遍历即可。
  */
 public class Offer_26 {
 	public class TreeNode {
@@ -38,7 +38,7 @@ public class Offer_26 {
         if(pRootOfTree==null){
             return null;
         }
-        //���4
+        //情况4
         if(pRootOfTree.left==null&&pRootOfTree.right==null){
             leftLast = pRootOfTree;
             return pRootOfTree;
@@ -48,14 +48,14 @@ public class Offer_26 {
             leftLast.right = pRootOfTree;
             pRootOfTree.left = leftLast;
         }
-        //���2
+        //情况2
         leftLast = pRootOfTree.right!=null?pRootOfTree.right:pRootOfTree;
         TreeNode right = Convert(pRootOfTree.right);
         if(right!=null){
             right.left = pRootOfTree;
             pRootOfTree.right = right;
         }
-        //���3
+        //情况3
         return left!=null?left:pRootOfTree;
     }
     

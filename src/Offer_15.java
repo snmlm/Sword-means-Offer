@@ -1,11 +1,11 @@
 
 /**
- * ·´×ªÁ´±í
- * ÊäÈëÒ»¸öÁ´±í£¬·´×ªÁ´±íºó£¬Êä³öÐÂÁ´±íµÄ±íÍ·¡£
+ * åè½¬é“¾è¡¨
+ * è¾“å…¥ä¸€ä¸ªé“¾è¡¨ï¼Œåè½¬é“¾è¡¨åŽï¼Œè¾“å‡ºæ–°é“¾è¡¨çš„è¡¨å¤´ã€‚
  * @author xxxxx
  * 
- * Ë¼Â·£º
- * Õý³£±éÀú£¬×ªÏò¼´¿É¡£
+ * æ€è·¯ï¼š
+ * æ­£å¸¸éåŽ†ï¼Œè½¬å‘å³å¯ã€‚
  */
 public class Offer_15 {
 	public class ListNode {
