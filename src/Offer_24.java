@@ -35,5 +35,4 @@ public class Offer_24 {
     	list.remove(list.size()-1);
     	return listAll;
     }
-    
 }

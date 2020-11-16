@@ -34,6 +34,6 @@ public class Offer_30 {
     public static void main(String[] args) {
         Offer_30 aOffer_30 = new Offer_30();
         int[] aa = {1,-2,3,10,-4,7,2,-5};
-        aOffer_30.FindGreatestSumOfSubArray(aa);
+        System.out.println(aOffer_30.FindGreatestSumOfSubArray(aa));;
     }
 }
